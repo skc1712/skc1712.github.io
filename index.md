@@ -8,5 +8,5 @@ title: Inicio
 - [Black--Scholes equation](/BSE/)
 - [Vortex Filament equation](/VFE/)
 - [Landau--Lifschitz--Gilbert equation](/LLG/)
-- [Self similarity](/SS/)
+- [Self-similarity](/SS/)
  
