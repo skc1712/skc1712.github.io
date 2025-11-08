@@ -9,4 +9,5 @@ title: Inicio
 - [Vortex Filament equation](/VFE/)
 - [Landau--Lifschitz--Gilbert equation](/LLG/)
 - [Self-similarity](/SS/)
+- [Physics Informed Neural Networks](/PINNs/)
  
