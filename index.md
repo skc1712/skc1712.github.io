@@ -10,4 +10,5 @@ title: Inicio
 - [Landau--Lifschitz--Gilbert equation](/LLG/)
 - [Self-similarity](/SS/)
 - [Physics Informed Neural Networks](/PINNs/)
+- [Schrödinger's equation](/SchE/)
  
