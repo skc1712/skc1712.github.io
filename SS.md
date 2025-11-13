@@ -16,4 +16,6 @@ $$
 
 where $k$ is a scaling exponent. Here are some intuitive real-world examples, some of which I am sure all of us have seen somewhere. 
 
+This is a typical definition of a homogeneous function of degree $k$ that we learn in Calculus. 
+
 # Self-similarity of equations
