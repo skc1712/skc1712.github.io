@@ -10,7 +10,9 @@ When I think of self-similarity, the first thing that comes to my mind is Romane
 # Self-similarity of shapes/functions
 Formally, a function $f(x)$ or a set $S$ is self-similar if scaling the input by a factor $\lambda$ changes the output in a predictable, proportional way:
 
-$f(\lambda x) = \lambda^k f(x),$
+\[
+f(\lambda x) = \lambda^k f(x),
+\]
 
 where $k$ is a scaling exponent. 
 
