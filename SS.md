@@ -14,6 +14,6 @@ $$
 f(\lambda x) = \lambda^k f(x),
 $$
 
-where $k$ is a scaling exponent. 
+where $k$ is a scaling exponent. Here are some intuitive real-world examples, some of which I am sure all of us have seen somewhere. 
 
 # Self-similarity of equations
