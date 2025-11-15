@@ -37,6 +37,13 @@ $$
 
 This means that if you view the pyramid from above (looking down the $z$-axis) and zoom in by a factor of 2, you will see the same square shape with half the side length. Moreover, this remains true for any zooming factor: no matter how much you zoom in or out, the level sets keep the same shape, differing only by scale.
 
+So the self-similarity in this example can be expressed by
+
+$$
+f(\lambda x, \lambda y) = |\lambda x| + |\lambda y| = c \implies  |x| + |y| = \frac{c}{\lambda} = \frac{1}{\lambda} c  
+$$
+.
+
 Another interesting and closed-form example is the logarithmic spiral, which has exact geometric self-similarity. In the polar form, it can be expressed as
 
 $$r(\theta)=r_0 e^{b\theta}$$
@@ -66,6 +73,13 @@ $$
 .
 
 It turns out that when $\Delta \theta = \frac{\pi}{2}$, and $\lambda = \frac{1+\sqrt{5}}{2}$, the Golden ratio, then the corresponding spiral is  called the  Golden spiral. Hooreyyy!!! 
+
+So the self-similarity in this example can be expressed as
+
+$$
+\lambda z(\theta) = z\left( \theta+\frac{\ln \lambda}{b} \right)
+$$
+.
 
 Special case: Golden spiral. 
 
