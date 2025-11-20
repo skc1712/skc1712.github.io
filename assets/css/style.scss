@@ -2,19 +2,16 @@
 ---
 @import "{{ site.theme }}";
 
-/* You can keep or remove this test color */
+/* Optional: test background */
 body {
-  background-color: #fdf4e3;  /* or #ffffff if you prefer white */
+  background-color: #fdf4e3;
 }
 
-/* Widen the main content area, no matter what container the theme uses */
-.wrapper,
-section,
-main,
-body > div {
-  max-width: 1100px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+/* Our own container that we control */
+.content-wide {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
