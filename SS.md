@@ -4,7 +4,6 @@ title: Self-similarity
 permalink: /SS/
 ---
 
-<div class="content-wide">
 
 
 # Introduction 
@@ -99,4 +98,3 @@ Self-similar solutions of heat and Schrödinger equations.
 
 images in 1d and 2d. 
 
-</div>
