@@ -83,9 +83,9 @@ $$
 
 This means zooming the entire curve is equivalent to rotating it; the shape remains the same, but not the size. 
 
-![Description of image](assets/images/pyramid3d.png)
+![3D pyramid shape](assets/images/pyramid3d.png)
 
-![Description of image](assets/images/pyramid2d.png)
+![Level curves of pyramid](assets/images/pyramid2d.png)
  
 Images of Galaxy and cyclones. 
 
