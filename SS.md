@@ -88,6 +88,8 @@ This means zooming the entire curve is equivalent to rotating it; the shape rema
 ![3D pyramid shape](assets/images/pyramid3d.png)
 
 ![Level curves of pyramid](assets/images/pyramid2d.png)
+
+![spiral zoom](assets/images/spiralzoom.png)
  
 Images of Galaxy and cyclones. 
 
