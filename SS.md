@@ -94,8 +94,8 @@ $$
 This means zooming the entire curve is equivalent to rotating it; the shape remains the same, but not the size. 
 
 <div style="display: flex; gap: 15px;">
-  <img src="../assets/images/spiralzoom.gif" width="300">
-  <img src="../assets/images/galaxylognasa.png" width="300">
+  <img src="../assets/images/spiralzoom.gif" style="style="max-width: 300px; height: auto;" >
+  <img src="../assets/images/galaxylognasa.png" style="max-width: 300px; height: auto;">
 </div>
 *Image credit: www.nasa.gov (Public Domain).*
 
