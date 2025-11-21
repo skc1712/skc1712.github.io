@@ -91,7 +91,7 @@ This means zooming the entire curve is equivalent to rotating it; the shape rema
 
 ![spiral zoom](assets/images/spiralzoom.gif)
 
-![Spiral Galaxy NGC 3147](assets/images/galaxynasa.png) 
+![Spiral Galaxy NGC 3147](assets/images/galaxynasa.jpg) 
 
 
  
