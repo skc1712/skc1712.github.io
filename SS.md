@@ -230,3 +230,6 @@ $$
 .
 
 That is, the logarithmic spiral, or our very Romanescu broccoli! 
+<div style="display: flex; gap: 15px;">
+  <img src="../assets/images/romanescu.png" style="max-width: 300px; height: auto;">
+</div>
