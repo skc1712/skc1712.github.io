@@ -95,7 +95,6 @@ $$
 \lambda r(\theta) = r_0 e^{b (\theta+\Delta \theta)} = r(\theta+\Delta \theta) 
 $$
 ,
-
 where $\Delta \theta = \frac{\ln \lambda}{b}$. 
 
 <!--
