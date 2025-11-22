@@ -83,25 +83,32 @@ $$
 then 
 
 $$
-\lambda r(\theta) = r_0 e^{b (\theta+\Delta \theta)} 
+\lambda r(\theta) = r_0 e^{b (\theta+\Delta \theta)} = r(\theta+\Delta \theta) 
 $$
 ,
 
-where $\Delta \theta = \frac{\ln \lambda}{b}$. And if we write in the Cartesian coordinates $x=r\cos(\theta), y = r\sin(\theta)$, then
+where $\Delta \theta = \frac{\ln \lambda}{b}$. 
+
+<!--
+And if we write in the Cartesian coordinates $x=r\cos(\theta), y = r\sin(\theta)$, then
 
 $$
 z = x+iy = r e^{i\theta} = r_0 e^{(i+b) \theta} 
 $$
 .
 
+-->
+
 It turns out that when $\Delta \theta = \frac{\pi}{2}$, and $\lambda = \frac{1+\sqrt{5}}{2}$, the Golden ratio, then the corresponding spiral is  called the  Golden spiral. Hooreyyy!!! 
 
+<!--
 So the self-similarity in this example can be expressed as
 
 $$
 \lambda z(\theta) = z\left( \theta+\frac{\ln \lambda}{b} \right)
 $$
 .
+-->
 
 This means zooming the entire curve is equivalent to rotating it; the shape remains the same, but not the size. 
 
