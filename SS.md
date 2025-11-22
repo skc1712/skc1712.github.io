@@ -225,7 +225,7 @@ $$
 whose solution in the polar form is
 
 $$
-r(\theta) = r_0 e^{b\theta}, \quad b = \Re{\lambda}/\Im{\lambda}, \quad \lambda = \sqrt{A+iB}
+r(\theta) = r_0 e^{b\theta}, \quad \text{where} \quad b = \Re{(\lambda)}/\Im{(\lambda)}, \quad \text{and} \quad \lambda = \sqrt{A+iB}
 $$
 .
 
