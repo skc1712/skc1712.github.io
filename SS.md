@@ -167,14 +167,21 @@ $$
 A natural self-similar form is given by
 
 $$
-u(x,t) = t^{-1/2} F\left(\frac{x}{\sqrt{t}}\right)
+u(x,t) = t^{-1/2} F\left(\frac{x}{\sqrt{t}}\right) = t^{-1/2} F(\xi)
 $$
 ,
 
-where the profile $F$ solves
+where the profile $F$ satisfies
 
 $$
-F^{\prime\prime} + \frac{\xi}{2} + \frac12 F=0
+F^{\prime\prime} + \frac{\xi}{2} F^\prime + \frac12 F=0
 $$
-.
+,
+solving which gives
 
+$$
+F(\xi) = C e^{-\xi^2/4} \implies u(x,t) = \frac{C}{\sqrt{t}} e^{-x^2/4t}
+$$
+,
+
+the fundamental solution of the heat equation. 
