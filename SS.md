@@ -46,7 +46,14 @@ $$
 
 The level curves, diamonds, are exactly the shape, scaled by a factor of 1/2.
 
-This means that if you view the pyramid from above (along the $z$-axis) and zoom in by a factor of 2, you will see the same diamond shape with half the side length. Moreover, this remains true for any zooming factor: no matter how much you zoom in or out, the level sets keep the same shape, differing only by scale. Thus, the top view of the pyramid is self-similar, just like in the figure. 
+This means that if you view the pyramid from above (along the $z$-axis) and zoom in by a factor of 2, you will see the same diamond shape with half the side length. Moreover, this remains true for any zooming factor: no matter how much you zoom in or out, the level sets keep the same shape, differing only by scale, i.e.,
+
+$$
+L_{\lambda c} = \lambda L_c
+$$
+.
+
+Thus, the top view of the pyramid is self-similar, just like in the figure. 
 
 <!-- ![3D pyramid shape](assets/images/pyramid3d.png) 
 ![Level curves of pyramid](assets/images/pyramid2d.png) -->
