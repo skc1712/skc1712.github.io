@@ -185,3 +185,13 @@ $$
 ,
 
 the fundamental solution of the heat equation. 
+
+Let's now consider a PDE whose solution is rather an arc-length parameterised curve, $\gamma$ 
+
+$$
+\gamma_t = \kappa \mathbf{n}
+$$
+,
+
+where $\kappa$, is the curvature and $\mathbf{n}$, the normal vector. This equation is known as *Curve shortening flow* and explains the evolution of a curve whose velocity vector has the tangential component equal to zero. 
+
