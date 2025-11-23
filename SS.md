@@ -156,7 +156,7 @@ x \rightarrow \lambda x, \quad t \rightarrow \lambda^2 t
 $$
 ;
 
-that is, if $u(x,t)$ solves the equations, then so does (under constant energy assumption)
+that is, if $u(x,t)$ solves the equation, then so does (under constant energy assumption)
 
 $$
 u_\lambda(x, t) = \lambda u(\lambda x, \lambda^2 t)
