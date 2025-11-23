@@ -209,23 +209,23 @@ where $\lambda(t)$ controls the scaling, $R_{\omega(t)}$ is a rotation by angle 
 Substituting the above ansatz in the CSF gives the ODE for $\Gamma$:
 
 $$
-\Gamma^{\prime\prime} = A \Gamma + B J \Gamma
+\Gamma^{\prime\prime} = p \Gamma + q J \Gamma
 $$
 ,
 
-where $J\Gamma$ is a 90º rotation of $\Gamma$ and $A$, $B$ are constants depending on the rate of scaling and rotation. 
+where $J\Gamma$ is a 90º rotation of $\Gamma$ and $p$, $q$ are constants depending on the rate of scaling and rotation. 
 
 By writing $\Gamma(s) = (x(s), y(s))$ and $z=x+iy$, the above ODE becomes
 
 $$
-z^{\prime\prime} = (A+iB) z
+z^{\prime\prime} = (p+iq) z
 $$
 ,
 
 whose solution in the polar form is
 
 $$
-r(\theta) = r_0 e^{b\theta}, \quad \text{where} \quad b = Re{(D)}/Im{(D)}, \quad \text{and} \quad D = \sqrt{A+iB}
+r(\theta) = r_0 e^{b\theta}, \quad \text{where} \quad b = Re{(u)}/Im{(u)}, \quad \text{and} \quad u = \sqrt{p+iq}
 $$
 .
 
