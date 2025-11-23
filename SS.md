@@ -204,7 +204,7 @@ $$
 $$
 ,
 
-where $\lambda(t)$ controls the scaling, $R_{\omega(t)}$ is a rotation by angle $\omega(t)$, and $\gamma(s)$ is the fixed shape we want to determine.
+where $\lambda(t)$ controls the scaling, $R_{\omega(t)}$ is a rotation by angle $\omega(t)$, and $\Gamma(s)$ is the fixed shape we want to determine.
 
 Substituting the above ansatz in the CSF gives the ODE for $\Gamma$:
 
