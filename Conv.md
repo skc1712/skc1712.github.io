@@ -8,9 +8,9 @@ Convergence is a topic which starts to appear right from the beginning of a math
 # numbers/sequences/series
 A sequence $x_n$ converges to $x$ if for every $\epsilon$, there exists $N$ such that
 
-$$
+\[
 n \ge N \implies |x_n - x| < \epsilon.
-$$
+\]
 
 ### Example.
 $$
