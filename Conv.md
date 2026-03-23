@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Convergence
-permalink: /SS/
+permalink: /Conv/
 ---
 Convergence is a topic which starts to appear right from the beginning of a maths degree. A good way is to categorise this concept by what is converging:
 
