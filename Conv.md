@@ -11,20 +11,22 @@ A sequence $x_n$ converges to $x$ if for every $\epsilon$, there exists $N$ such
 
 
 $$
-n \ge N \implies |x_n - x| < \epsilon.
+n \ge N \implies |x_n - x| < \epsilon
 $$
-
+.
 
 ### Example.
 $$
-x_n = \frac{1}{n} \to 0.
+x_n = \frac{1}{n} \to 0
 $$
+.
 
 ### Counterexample.
 
 $$
 x_n = (-1)^n
 $$
+,
 does not converge.
 
 ## Cauchy convergence
@@ -32,18 +34,30 @@ A sequence $x_n$ is Cauchy if for every $\epsilon > 0$, there exists $N$ such th
 
 
 $$
-m, n \ge N \implies |x_n - x_m| < \epsilon.
+m, n \ge N \implies |x_n - x_m| < \epsilon
 $$
+.
 
 ### Example.
 $$
-x_n = \frac{1}{n} \to 0.
+x_n = \frac{1}{n} \to 0
 $$
+.
 
 In fact, in $\mathbb{R}, \mathbb{C}$, Cauchy $\leftrightarrow$ convergent.
 
 
 ## Monotone convergence for sequences
+If $x_n$ is monotone and bounded, then it converges.
+
+### Example.
+$$
+x_n = 1-\frac{1}{n},
+$$
+is increasing and bounded above by 1, so $x_n \to 1$. 
+
+# 2. For series
+
 
 # functions
 # vectors in normed or topological spaces
