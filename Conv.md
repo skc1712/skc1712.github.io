@@ -78,9 +78,9 @@ $$
 Equivalently,
 
 $$
-\forall x \in E, \forall \epsilon > 0, \exists N = N(x, \epsilon) \text{such that} n \ge N \implies |f_n(x) - f(x)| < \epsilon. 
+\forall x \in E, \forall \epsilon > 0, \exists N = N(x, \epsilon) \, \text{such that} \, n \ge N \implies |f_n(x) - f(x)| < \epsilon
 $$
-
+.
 
 # functions
 # vectors in normed or topological spaces
