@@ -81,6 +81,17 @@ $$
 \forall x \in E, \forall \epsilon > 0, \exists N = N(x, \epsilon) \, \text{such that} \, n \ge N \implies |f_n(x) - f(x)| < \epsilon
 $$
 .
+Example:
+On $[0, 1], \, f_n(x)=x^n.$ Then
+
+$$
+f_n(x) \to f(x) =
+\begin{cases}
+0, \quad 0 \le x < 1 \\
+1, \quad x = 1
+\end{cases}
+$$
+.
 
 # functions
 # vectors in normed or topological spaces
