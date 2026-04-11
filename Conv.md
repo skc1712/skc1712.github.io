@@ -166,15 +166,51 @@ $$
 does not converge uniformly on all of $\mathbb{R}$, because
 
 $$
-\sup_{x\in\mathbb{R}} \left| \frac{x}{n} \right| = \inf 
+\sup_{x\in\mathbb{R}} \left| \frac{x}{n} \right| = \infty
 $$
 .
 
+# Convergence in a metric space
 
+In a metric space $(X, d), x_n \to x$, means
 
+$$
+d(x_n, x) \to 0
+$$
+.
 
+Example:
 
-# functions
-# vectors in normed or topological spaces
-# measurable functions / random variables
+In $C([0, 1])$ with the sup metric
 
+$$
+d(f, g) = \sup_{x\in[0, 1]} |f(x) - g(x)|
+$$
+,
+
+metric convergence is exactly uniform convergence.
+
+In $L^p$, metric convergence is $L^p$-convergence. 
+
+# Norm convergence / Strong convergence
+In a normed space $(X, \|\cdot\|$,
+
+$$
+x_n \to x \quad \text{strongly (or in norm)}
+$$
+means,
+
+$$
+\| x_n - x\| \to 0.
+$$
+
+Example:
+
+- In $C([0, 1])$ 
+
+$$
+\|f_n - f\|_\infty \to 0
+$$
+is uniform convergence.
+
+- In $l^2$, $e_n$ does not converge strongly to 0, because $\|e_n\|_2=1$.
