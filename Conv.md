@@ -65,14 +65,17 @@ Let $f_n: E \to \mathbb{R}$, f: E \to \mathbb{R}$.
 $$
 f_n \to f  
 $$
-
+,
 pointwise on $E$ means:
 
 for every fixed $x \in E$, 
 
 $$
-f_n(x) \to f(x). 
+f_n(x) \to f(x) 
 $$
+.
+
+Equivalently,
 
 $$
 \forall x \in E, \forall \epsilon > 0, \exists N = N(x, \epsilon) \text{such that} n \ge N \implies |f_n(x) - f(x)| < \epsilon. 
