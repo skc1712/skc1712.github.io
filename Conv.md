@@ -56,7 +56,27 @@ x_n = 1-\frac{1}{n},
 $$
 is increasing and bounded above by 1, so $x_n \to 1$. 
 
-# 2. For series
+# 2. For functions
+
+Let $f_n: E \to \mathbb{R}$, f: E \to \mathbb{R}$. 
+
+## Pointwise convergence
+
+$$
+f_n \to f  
+$$
+
+pointwise on $E$ means:
+
+for every fixed $x \in E$, 
+
+$$
+f_n(x) \to f(x). 
+$$
+
+$$
+\forall x \in E, \forall \epsilon > 0, \exists N = N(x, \epsilon) \text{such that} n \ge N \implies |f_n(x) - f(x)| < \epsilon. 
+$$
 
 
 # functions
