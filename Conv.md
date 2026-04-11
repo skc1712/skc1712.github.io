@@ -137,6 +137,42 @@ $$
 
 Note that uniform convergence preserves continuity. 
 
+## Locally uniform convergence
+
+
+$$
+f_n \to f  
+$$
+,
+locally uniform on $U$, 
+
+means uniform convergence on every compact subset $K \subset U$.
+
+Example: 
+
+$$
+f_n(x) = \frac{x}{n}
+$$
+,
+
+converges locally uniformly on $\mathbb{R}$, in fact, uniformly on every bounded interval.
+
+Counterexample to global uniformity:
+
+$$
+f_n(x) = \frac{x}{n}, \quad x \in \mathbb{R}
+$$
+,
+does not converge uniformly on all of $\mathbb{R}$, because
+
+$$
+\sup_{x\in\mathbb{R}} \left| \frac{x}{n} \right| = \infinity
+$$
+.
+
+
+
+
 
 # functions
 # vectors in normed or topological spaces
