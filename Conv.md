@@ -81,6 +81,7 @@ $$
 \forall x \in E, \forall \epsilon > 0, \exists N = N(x, \epsilon) \, \text{such that} \, n \ge N \implies |f_n(x) - f(x)| < \epsilon
 $$
 .
+
 Example:
 On $[0, 1], \, f_n(x)=x^n.$ Then
 
@@ -92,6 +93,50 @@ f_n(x) \to f(x) =
 \end{cases}
 $$
 .
+
+So pointwise convergence holds.
+
+Note that each $f_n(x) = x^n$ is continuous, but the limit $f$ is not continuous at 1. So pointwise convergence does not preserve continuity.
+
+## Uniform convergence
+
+$$
+f_n \to f  
+$$
+,
+uniform on $E$ means:
+
+
+$$
+\forall \epsilon > 0, \exists N = N(\epsilon) \, \text{such that} \, n \ge N \implies |f_n(x) - f(x)| < \epsilon, \, \forall x \in E
+$$
+.
+
+Equivalent form:
+
+$$
+\sup_{x\in E} |f_n(x) \to f(x)| \to 0.  
+$$
+.
+
+Example:
+
+On $[0, 1], \, f_n(x)= \frac{x}{n}.$ Then
+
+$$
+\sup_{x\in[0, 1]} |f_n(x)| = \frac{1}{n} \to 0,
+$$
+so $f_n \to 0$, uniformly.
+
+Standard counterexample:
+$f_n(x) = x^n$ converges pointwise, but not uniformly, because
+$$
+\sup_{x\in[0, 1]} |x^n - f(x)| = 1, \quad \forall n
+$$
+.
+
+Note that uniform convergence preserves continuity. 
+
 
 # functions
 # vectors in normed or topological spaces
