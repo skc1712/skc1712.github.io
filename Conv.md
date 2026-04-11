@@ -166,7 +166,7 @@ $$
 does not converge uniformly on all of $\mathbb{R}$, because
 
 $$
-\sup_{x\in\mathbb{R}} \left| \frac{x}{n} \right| = \infinity
+\sup_{x\in\mathbb{R}} \left| \frac{x}{n} \right| = \inf 
 $$
 .
 
