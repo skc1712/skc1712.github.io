@@ -192,17 +192,19 @@ metric convergence is exactly uniform convergence.
 
 In $L^p$, metric convergence is $L^p$-convergence. 
 
-# Norm convergence / Strong convergence
+# Norm (Strong) convergence
 In a normed space $(X, \|\cdot\|$,
 
 $$
 x_n \to x \quad \text{strongly (or in norm)}
 $$
+
 means,
 
 $$
-\| x_n - x\| \to 0.
+\| x_n - x\| \to 0
 $$
+.
 
 Example:
 
@@ -214,3 +216,31 @@ $$
 is uniform convergence.
 
 - In $l^2$, $e_n$ does not converge strongly to 0, because $\|e_n\|_2=1$.
+
+# Weak convergence
+
+Let $X$ be a normed space and $X^*$ be its dual. Then
+
+$$
+x_n \rightharpoonup x
+$$
+,
+means:
+
+for every continuous linear function $\varphi\in X^*$
+$$
+\varphi(x_n) \to \varphi(x)
+$$
+.
+
+Example:
+In a Hilbert space $l^2$, the standard basis $e_n \rightharpoonup 0$ weakly:
+
+for any $y = (y_k) \in l^2$,  
+$$
+\langle y, e_n \rangle = y_n \to 0  
+$$
+.
+But $e_n \not \to 0$, because $\| e_n \| = 1$. 
+
+Note that convergence in norm implies weak convergence, but not vice versa in infinite-dimensional spaces. 
