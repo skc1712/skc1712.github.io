@@ -228,6 +228,7 @@ $$
 means:
 
 for every continuous linear function $\varphi\in X^*$
+
 $$
 \varphi(x_n) \to \varphi(x)
 $$
