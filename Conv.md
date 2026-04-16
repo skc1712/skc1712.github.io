@@ -245,3 +245,24 @@ $$
 But $e_n \not \to 0$, because $\| e_n \| = 1$. 
 
 Note that convergence in norm implies weak convergence, but not vice versa in infinite-dimensional spaces. 
+
+# Weak$-^*$ convergence
+
+If $\varphi_n^*\in X^*$ then
+
+$$
+\varphi_n^* \rightharpoonup \varphi^*
+$$
+,
+means
+
+$\forall x \in X$, 
+
+$$
+\varphi_n^*(x) \to \varphi^*(x)
+$$
+.
+
+Example:
+
+In $l^\infty = (l^1)^*$, weak $-^*$ convergence means pointwise convergence on $l^1$-pairings.
