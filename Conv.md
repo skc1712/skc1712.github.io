@@ -267,3 +267,37 @@ $$
 Example:
 
 In $l^\infty = (l^1)^* $, weak$-^*$ convergence means pointwise convergence on $l^1$-pairings.
+
+# Almost everywhere convergence (a.e.)
+
+$$
+f_n(x) \to f(x) \quad \text{for almost every $x$}
+$$
+,
+
+meaning except on a set of measure zero. 
+
+Example: 
+
+$$
+f_n(x) = x^n \quad \text{on} \quad [0, 1]
+$$
+,
+converges a.e. to $0$, because only $x=1$, the limit is 1, and $\{1\}$ has measure zero.
+
+Counterexample:
+a.e. convergence does not imply $L^1$ convergence. 
+
+Take 
+
+$$
+f_n(x) = n \mathbb{1}_{(0, 1/n)}(x) \quad [0, 1] 
+$$
+.
+
+Then, $f_n(x) \to 0$, $\forall x > 0$, hence, a. e. to 0. But
+
+$$
+\| f_n\|_1 = \int_0^1 
+$$
+
