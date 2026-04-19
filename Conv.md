@@ -315,8 +315,9 @@ means,
 $\forall \epsilon >0$
 
 $$
-\mu(x\{x: |f_n(x) - f(x)|> \epsilon \}) \to 0.
+\mu(x\{x: |f_n(x) - f(x)|> \epsilon \}) \to 0
 $$
+.
 
 Example:
 
