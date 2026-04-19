@@ -248,12 +248,13 @@ Note that convergence in norm implies weak convergence, but not vice versa in in
 
 # Weak$-^*$ convergence
 
-If $\varphi_n^*\in X^*$ then
+If $\varphi_n^* \in X^*$ then
 
 $$
 \varphi_n^* \rightharpoonup \varphi^*
 $$
 ,
+
 means
 
 $\forall x \in X$, 
