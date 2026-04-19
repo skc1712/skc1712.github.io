@@ -266,4 +266,4 @@ $$
 
 Example:
 
-In $l^\infty = (l^1)^*$, weak $-^*$ convergence means pointwise convergence on $l^1$-pairings.
+In $l^\infty = (l^1)^* $, weak$-^*$ convergence means pointwise convergence on $l^1$-pairings.
