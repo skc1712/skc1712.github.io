@@ -333,6 +333,58 @@ The 'typewriter sequence' on [0,1], where intervals sweep across dyadic subinter
 
 # $L^p$ convergence
 
+For $1\le p < \infty$, 
+
+$$
+f_n \to f, \quad \text{in} \quad L^p
+$$
+means
+
+$$
+\| f_n - f\|_p =  \left( |f_n - f|^p\right)^{1/p} \to 0
+$$
+.
+
+For $L^\infty$$, 
+$$
+f_n \to f, \quad \text{in} \quad L^\infty
+$$
+means
+
+$$
+\| f_n - f\|_\infty =  \text{esssup} |f_n - f|  \to 0
+$$
+.
+
+Example:
+
+$$
+f_n(x) = \frac{1}{n} \to 0 \quad \text{in every} L^p([0, 1])
+$$
+.
+
+Counterexample:
+
+$$
+f_n(x) = n \mathbf{1}_{(0, 1/n)}(x) 
+$$
+,
+
+converges a.e. to 0, but not in $L^1$. 
+
+Another example:
+
+$$
+f_n(x) = n \mathbf{1}_{(0, 1/n)}(x) 
+$$
+,
+
+then $f_n \to 0$ a.e. and in $L^p$ for every finite $p$, because
+
+$$
+\| f_n\|_p = (1/n)^{1/p} \to 0
+$$
+.
 
 
 
