@@ -291,13 +291,47 @@ a.e. convergence does not imply $L^1$ convergence.
 Take 
 
 $$
-f_n(x) = n \mathbb{1}_{(0, 1/n)}(x) \quad [0, 1] 
+f_n(x) = n \mathbf{1}_{(0, 1/n)}(x) \quad [0, 1] 
 $$
 .
 
 Then, $f_n(x) \to 0$, $\forall x > 0$, hence, a. e. to 0. But
 
 $$
-\| f_n\|_1 = \int_0^1 
+\| f_n\|_1 = \int_0^1 n \mathbf{1}_{(0, 1/n)}(x) dx = 1
 $$
+,
+
+so not $L^1$-convergence to 1. 
+
+# Convergence in measure
+
+$$
+f_n \to f \quad \text{in measure}
+$$
+,
+means,
+
+$\forall \epsilon >0$
+
+$$
+\mu(x\{x: |f_n(x) - f(x)|> \epsilon \}) \to 0.
+$$
+
+Example:
+
+If $f_n \to f$ in $L^p$, then $f_n \to f$ in measure.
+
+Counterexample:
+
+Convergence in measure does not imply a.e. convergence for the whole sequence in general.
+
+Standard example:
+
+The 'typewriter sequence' on [0,1], where intervals sweep across dyadic subintervals. It converges to 0 in measure but not pointwise a.e.
+
+# $L^p$ convergence
+
+
+
 
